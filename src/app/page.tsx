@@ -2,6 +2,6 @@
 
 export default function Home() {
   return (
-      <p>Hello World</p>
+      <h1>Glorious Medical Center - Home</h1>
   );
 }
