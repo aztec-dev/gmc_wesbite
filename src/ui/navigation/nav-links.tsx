@@ -24,13 +24,15 @@ export default function NavLinks() {
                     <Link
                         key={link.name}
                         href={link.href}
-                        className="flex flex-col items-center justify-center  px-3 py-2"
+                        className="flex flex-col items-center justify-center px-3 py-2 group"
                     >
-                        {/* Icon on mobile only */}
-                        <Icon className="h-6 w-6 md:hidden" />
+                        {/* Icon: visible on mobile */}
+                        <Icon className="h-6 w-6 text-[var(--color-primary)] group-hover:text-[var(--color-accent)] md:hidden transition-colors" />
 
-                        {/* Text on desktop only */}
-                        <p className="hidden md:block text-xl font-medium text-blue-700 hover:text-blue-900">{link.name}</p>
+                        {/* Text: visible on desktop */}
+                        <p className="hidden md:block text-xl font-medium text-[var(--color-primary)] group-hover:text-[var(--color-accent)] transition-colors">
+                            {link.name}
+                        </p>
                     </Link>
                 );
             })}
