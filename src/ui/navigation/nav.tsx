@@ -1,18 +1,17 @@
 import NavLinks from "@/ui/navigation/nav-links";
-import { HomeIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 export default function Nav() {
     return (
         <nav className="w-full">
             {/* Desktop Top Nav */}
-            <div className="hidden md:flex w-full  bg-white px-6 py-3 items-center shadow-md transition-colors duration-200">
+            <div className="hidden md:flex w-full  bg-white px-6 py-3 items-center shadow-md transition-colors duration-200 rounded-sm">
                 {/* Left: Home Icon */}
                 <Link
                     href="/"
                     className="text-[var(--color-primary)] group-hover:text-[var(--color-accent)] transition flex items-center space-x-2"
                 >
-                    <HomeIcon className="h-6 w-6 mr-2" /> Glorious Medical Center
+                    Glorious Medical Center
                 </Link>
 
                 {/* Right: Nav Links, centered using mx-auto */}
