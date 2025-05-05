@@ -1,9 +1,18 @@
 @import "tailwindcss";
+:root {
+    --color-primary: #2E86C1;         /* Soft Blue */
+    --color-accent: #AED6F1;          /* Sky Blue */
+    --color-highlight: #F5A623;       /* Orange (CTA) */
+    --color-text-dark: #2C3E50;       /* Dark Gray */
+    --color-success: #58D68D;         /* Light Green */
+    --color-bg-light: #FDFEFE;        /* Very Light Background */
+}
 
 /* Mobile first approach */
 body {
     font-size: 16px;
     padding: 1rem;
+    background-color: antiquewhite;
 }
 
 @media (min-width: 720px) {
