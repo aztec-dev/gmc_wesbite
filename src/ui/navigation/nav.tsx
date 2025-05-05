@@ -10,15 +10,16 @@ export default function Nav() {
                 {/* Left: Home Icon */}
                 <Link
                     href="/"
-                    className="text-blue-700 hover:text-blue-900 transition flex items-center space-x-2"
+                    className="text-[var(--color-primary)] group-hover:text-[var(--color-accent)] transition flex items-center space-x-2"
                 >
-                    <HomeIcon className="h-6 w-6" />
+                    <HomeIcon className="h-6 w-6 mr-2" /> Glorious Medical Center
                 </Link>
 
                 {/* Right: Nav Links, centered using mx-auto */}
-                <div className="flex space-x-6 mx-auto">
+                <div className="flex-1 flex justify-center space-x-6">
                     <NavLinks />
                 </div>
+                <div className={"flex-none w-28"}></div>
             </div>
 
             {/* Mobile Bottom Nav */}
