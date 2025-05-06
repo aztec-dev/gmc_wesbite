@@ -15,7 +15,7 @@ export default function Nav() {
                 </Link>
 
                 {/* Right: Nav Links, centered using mx-auto */}
-                <div className="flex-1 flex justify-center space-x-6">
+                <div className="flex-1 flex justify-center space-x-6" >
                     <NavLinks />
                 </div>
                 <div className={"flex-none w-28"}></div>
