@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { inter, roboto, lusitana } from '@/ui/fonts';
+import { lusitana } from '@/ui/fonts';
 import Nav from '@/ui/navigation/nav';
 import "./globals.css";
 
