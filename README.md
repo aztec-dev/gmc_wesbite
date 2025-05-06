@@ -20,7 +20,7 @@ the medical center online.
 
 **Back-end**
 > - Next.js API routes
-> - PostgresSQL
+> - PostgresSQL (Neon)
 
 **Hosting**
 > Vercel
